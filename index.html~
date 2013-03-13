@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="utf-8">
+		<title>UI備忘録</title>
+		<link rel="stylesheet" href="list.css">
+	</head>
+	<body>
+		<h1>UIについて</h1>
+		
+		<h2>列挙(必要最低限)</h2>
+		<ul>
+			<li>ID</li>
+			<li>間取り図</li>
+		</ul>
+		
+		<h2>人事</h2>
+
+
+		<ol class="rounded-list">
+			<li>大豊</li>
+			<ol>
+				<li>言語類</li>
+				<ol>
+					<li>DB : 可</li>
+					<li>C# : 不可</li>
+					<li>→C#でリクエストした内容を受け取り、DBで検索、ソート、etc後、内容をレスポンスする</li>
+				</ol>
+				
+				<li>区画</li>
+				<ol>
+					<li>デザイン(DB)</li>
+				</ol>
+			</ol>
+			
+			<li>藤原</li>
+			<ol>
+				<li>言語類</li>
+				<ol>
+					<li>C# / C++ : 可</li>
+					<li>DB : 不可</li>
+					<li>→C#でDBにリクエストする / 描画</li>
+				</ol>
+				<li>区画</li>
+				<ol>
+					<li>デザイン(C#)</li>
+				</ol>
+			</ol>
+			
+			<li>林</li>
+			<ol>
+				<li>言語類</li>
+				<ol>
+					<li>C# / C++ : 可</li>
+					<li>DB : 不可</li>
+				</ol>
+				<li>区画</li>
+				<ol>
+					<li>内部実装(C#)</li>
+				</ol>
+			</ol>
+			
+			<li>宮本</li>
+			<ol>
+				<li>言語類</li>
+				<ol>
+					<li>DB(仮) : 可</li>
+					<li>NULL</li>
+					<li>→不足部分を補う</li>
+				</ol>
+				<li>区画</li>
+				<ol>
+				
+				</ol>
+			</ol>	
+		</ol>
+
+		
+	</body>
+</html>

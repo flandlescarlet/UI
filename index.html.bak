@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="utf-8">
+		<title>UI備忘録</title>
+		<link rel="stylesheet" href="list.css">
+	</head>
+	<body>
+		<h1>UIについて</h1>
+		
+		<h2>列挙(必要最低限)</h2>
+		<ul>
+			<li>ID</li>
+			<li>間取り図</li>
+		</ul>
+		
+		<h2>人事</h2>
+
+
+<ol class="rectangle-list">
+	<li><a href="">List item</a></li>
+	<li><a href="">List item</a></li>
+	<li><a href="">List item</a>
+		<ol>
+			<li><a href="">List sub item</a></li>
+			<li><a href="">List sub item</a></li>
+			<li><a href="">List sub item</a></li>
+		</ol>
+	</li>
+	<li><a href="">List item</a></li>
+	<li><a href="">List item</a></li>						
+</ol>
+
+		<ol class="rectangle-list">
+			<li><a href="">大豊</a>
+			<ol>
+				<li><a>言語類</a>
+					<ol>
+						<li>DB : 可</li>
+						<li>C# : 不可</li>
+						<li>→C#でリクエストした内容を受け取り、DBで検索、ソート、etc後、内容をレスポンスする</li>
+					</ol>
+				</li>
+				
+				<li>区画</li>
+				<ol>
+					<li>デザイン(DB)</li>
+				</ol>
+			</ol>
+			</li>
+			<li><a>藤原</a></li>
+			<ul>
+				<li>言語類</li>
+				<ul>
+					<li>C# / C++ : 可</li>
+					<li>DB : 不可</li>
+					<li>→C#でDBにリクエストする / 描画</li>
+				</ul>
+				<li>区画</li>
+				<ul>
+					<li>デザイン(C#)</li>
+				</ul>
+			</ul>
+			<li>林</li>
+			<ul>
+				<li>C# / C++ : 可</li>
+				<li>DB : 不可</li>
+			</ul>
+			<li>宮本</li>
+			<ul>
+				<li>DB(仮) : 可</li>
+				<li>NULL</li>
+				<li>→不足部分を補う</li>
+			</ul>		
+		</ul>
+		
+		<h2></h2>
+		
+		
+	</body>
+</html>
