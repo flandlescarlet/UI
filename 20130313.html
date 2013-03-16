@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="utf-8">
+		<title>UI備忘録</title>
+		<link rel="stylesheet" href="./css/list.css">
+		<link rel="stylesheet" href="./css/main.css">
+		<script>
+			document.addEventListener("DOMContentLoaded",function(){
+				document.getElementById("num1").addEventListener("click",function(){
+					this.style.display = "none";
+				},true);
+			},true);
+		</script>
+	</head>
+	<body>
+		<h1>UIについて</h1>
+		
+		<h2>列挙(必要最低限)</h2>
+		<ul>
+			<li>ID</li>
+			<li>間取り図</li>
+		</ul>
+		
+		<h2>人事</h2>
+		<ul>
+			<li><a>大豊</a>
+				<ul>
+					<li><a>言語類</a>
+						<ul>
+							<li><a>DB : 可</a></li>
+							<li><a>C# : 不可</a></li>
+							<li><a>→C#でリクエストした内容を受け取り、DBで検索、ソート、etc後、内容をレスポンスする</a></li>
+						</ul>
+					</li>
+					
+					<li><a>区画</a>
+						<ul>
+							<li><a>デザイン(DB)</a></li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			
+			<li><a>藤原</a>
+				<ul>
+					<li><a>言語類</a>
+						<ul>
+							<li><a>C# / C++ : 可</a></li>
+							<li><a>DB : 不可</a></li>
+							<li><a>→C#でDBにリクエストする / 描画</a></li>
+						</ul>
+					<li><a>区画</a>
+						<ul>
+							<li><a>デザイン(C#)</a></li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+					
+			<li><a>林</a>
+				<ul>
+					<li><a>言語類</a>
+						<ul>
+							<li><a>C# / C++ : 可</a></li>
+							<li><a>DB : 不可</a></li>
+							<li><a>→C#でDBにリクエストする / 描画</a></li>
+						</ul>
+					</li>
+					<li><a>区画</a>
+						<ul>
+							<li><a>内部実装(C#)</a></li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			
+			<li><a>宮本</a>
+				<ul>
+					<li><a>言語類</a>
+						<ul>
+							<li><a>DB(仮) : 可</a></li>
+							<li><a>NULL</a></li>
+							<li><a>→不足部分を補う</a></li>
+						</ul>
+					</li>
+					<li><a>区画</a>
+						<ul>
+							<li><a>内部実装(DB)</a></li>
+						</ul>
+					</li>
+				</ul>
+			</li>	
+		</ul>
+		
+		<h2>三月の目標</h2>
+		<ul>
+			<li><em>作る物を明白にさせる</em></li>
+			<li>[デザイン]フォーム関連を追加しやすい形にする</li>
+			<li>[内部実装]<u>データ構造</u>をはっきりさせる</li>
+		</ul>
+		
+		<h2>来週までの予定</h2>
+		<ul>
+			<li>[デザイン]デザインの仮決定→試作</li>
+			<li>[内部実装]クラスの構造を決める</li>
+		</ul>
+		
+		<h2>来週の話し合い</h2>
+		<dl>
+			<dt>場所</dt>
+			<dd>Skype</dd>
+			<dt>時間</dt>
+			<dd>p.m1:00 〜 3:00</dd>
+			<dt>内容</dt>
+			<dd>
+				<li>作った物の発表</li>
+				<li>改装+デバッグ</li>
+				<li>来週までの予定(今月までの予定の吟味)</li>
+			</dd>
+		<dl>
+			
+	</body>
+</html>
